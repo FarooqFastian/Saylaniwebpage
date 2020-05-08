@@ -1,0 +1,282 @@
+.line {
+    padding: 2% 8%;
+    background-color: #316DC3;
+    color: #666666;
+    margin: -10px;
+}
+
+img {
+    background-size: cover;
+}
+
+a.backgroundnull {
+    background-color: #316DC3;
+}
+
+.part {
+    float: left;
+    padding: 0px 15px;
+}
+
+label {
+    color: white;
+}
+
+.para {
+    padding: 7px 0px;
+    ;
+}
+
+button {
+    color: #427900;
+    padding: 5px 10px;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    outline: 0;
+    border: none;
+}
+
+.navbarfixedmanual {
+    z-index: 1000;
+    height: 70px !important;
+    /* position: fixed;
+    top: 0px;
+    margin-left: 0px;
+    width: 1349px;
+    left: 0px; */
+}
+
+.dropdownmanual {
+    right: auto;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* .dropdown:hover .dropdown {
+    background-color: #316DC3;
+} */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #316DC3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropright {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-submenu {
+    position: relative !important;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: -1px !important;
+    display: list-item !important;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    background-color: #316DC3;
+}
+
+
+/* li:hover {
+    background-color: #316DC3;
+    color: #fff;
+} */
+
+ul li a:hover {
+    background-color: #316DC3 !important;
+    color: #fff !important;
+}
+
+.slider {
+    height: 500px;
+    overflow: visible;
+}
+
+
+/*
+Rounded Boxed Skin
+*/
+
+
+/* Menu items */
+
+.menuzord-menu>li {
+    padding: 18px 0;
+}
+
+.menuzord-menu>li>a {
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+
+
+/* Active/hover state (Menu items) */
+
+.menuzord-menu>li.active>a,
+.menuzord-menu>li:hover>a {
+    background: #316DC3;
+    color: #fff;
+}
+
+
+/* Dropdown */
+
+.menuzord-menu ul.dropdown {
+    top: 71px;
+}
+
+.menuzord-menu ul.dropdown li ul.dropdown {
+    top: 0;
+}
+
+
+/* Dropdown items */
+
+.menuzord .menuzord-menu ul.dropdown li:hover>a {
+    background: #316DC3;
+    color: #fff;
+}
+
+
+/* Megamenu */
+
+.menuzord-menu>li>.megamenu {
+    top: 71px;
+}
+
+
+/* Search field */
+
+.menuzord-menu>li.search form {
+    padding: 2px 16px;
+}
+
+
+/* Color schemes */
+
+
+/* blue */
+
+.menuzord.blue .menuzord-menu>li.active>a,
+.menuzord.blue .menuzord-menu>li:hover>a,
+.menuzord.blue .menuzord-menu ul.dropdown li:hover>a {
+    background: #5D9CEC;
+    color: #fff;
+}
+
+
+/* green */
+
+.menuzord.green .menuzord-menu>li.active>a,
+.menuzord.green .menuzord-menu>li:hover>a,
+.menuzord.green .menuzord-menu ul.dropdown li:hover>a {
+    background: #48CFAD;
+    color: #fff;
+}
+
+
+/* red */
+
+.menuzord.red .menuzord-menu>li.active>a,
+.menuzord.red .menuzord-menu>li:hover>a,
+.menuzord.red .menuzord-menu ul.dropdown li:hover>a {
+    background: #FC6E51;
+    color: #fff;
+}
+
+
+/* orange */
+
+.menuzord.orange .menuzord-menu>li.active>a,
+.menuzord.orange .menuzord-menu>li:hover>a,
+.menuzord.orange .menuzord-menu ul.dropdown li:hover>a {
+    background: #ff853f;
+    color: #fff;
+}
+
+
+/* yellow */
+
+.menuzord.yellow .menuzord-menu>li.active>a,
+.menuzord.yellow .menuzord-menu>li:hover>a,
+.menuzord.yellow .menuzord-menu ul.dropdown li:hover>a {
+    background: #FFCE54;
+    color: #fff;
+}
+
+
+/* purple */
+
+.menuzord.purple .menuzord-menu>li.active>a,
+.menuzord.purple .menuzord-menu>li:hover>a,
+.menuzord.purple .menuzord-menu ul.dropdown li:hover>a {
+    background: #AC92EC;
+    color: #fff;
+}
+
+
+/* pink */
+
+.menuzord.pink .menuzord-menu>li.active>a,
+.menuzord.pink .menuzord-menu>li:hover>a,
+.menuzord.pink .menuzord-menu ul.dropdown li:hover>a {
+    background: #EC87C0;
+    color: #fff;
+}
+
+
+/* Mobile mode (Responsive mode) */
+
+@media (max-width: 900px) {
+    /* Menu items */
+    .menuzord-responsive .menuzord-menu>li {
+        padding: 0;
+    }
+    .menuzord-responsive .menuzord-menu>li>a {
+        padding: 12px 20px !important;
+        border-radius: 0;
+    }
+}
